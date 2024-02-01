@@ -113,4 +113,8 @@
   .footer-copyright-div > p {
     font-size: 12px;
   }
+
+  .horizontal-rule {
+    width: 288px;
+  }
 }
