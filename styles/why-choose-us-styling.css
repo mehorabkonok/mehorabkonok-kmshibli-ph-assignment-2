@@ -1,0 +1,226 @@
+.why-choose-us-section {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.why-choose-us-first-child {
+  /* border: 1px solid green; */
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#why-choose-text-one {
+  /* border: 1px solid red; */
+
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  margin: 100px 0px 24px 0px;
+}
+
+#why-choose-text-two {
+  /* border: 1px solid blue; */
+  text-align: center;
+  width: 643px;
+
+  width: 643px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+
+  margin: 0px 0px 48px 0px;
+}
+
+/* .why-choose-card-div {
+    border: 1px solid red;
+  } */
+
+.why-choose-card-div-one {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 1170px;
+}
+
+.why-choose-card-one > h2,
+.why-choose-card-two > h2,
+.why-choose-card-three > h2 {
+  /* border: 1px solid red; */
+
+  color: #131318;
+  /* text-align: center; */
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  margin: 32px 0px 0px 32px;
+}
+.why-choose-card-one > p,
+.why-choose-card-two > p,
+.why-choose-card-three > p {
+  /* border: 1px solid blue; */
+
+  width: 486px;
+
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+
+  margin: 16px 0px 0px 32px;
+}
+
+/* .why-choose-icon {
+    border: 1px solid red;
+    color: black;
+  } */
+
+.hotel-logo,
+.map-logo,
+.price-tag {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  margin: 32px 0px 0px 32px;
+}
+
+.why-choose-card-one {
+  /* border: 1px solid red; */
+
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.why-choose-card-two {
+  /* border: 1px solid green; */
+
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.why-choose-card-three {
+  width: 573px;
+  height: 284px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+
+  margin: 24px auto 100px auto;
+}
+
+@media screen and (max-width: 576px) {
+  #why-choose-text-one {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  #why-choose-text-two {
+    width: 309px;
+
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+
+  .why-choose-card-div-one {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .hotel-logo,
+  .map-logo,
+  .price-tag {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    margin: 32px 0px 0px 32px;
+  }
+
+  .why-choose-card-one > h2,
+  .why-choose-card-two > h2,
+  .why-choose-card-three > h2 {
+    color: #131318;
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 16px 0px 16px 32px;
+  }
+  .why-choose-card-one > p,
+  .why-choose-card-two > p,
+  .why-choose-card-three > p {
+    /* border: 1px solid blue; */
+
+    width: 271px;
+
+    color: #5a5a5d;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+
+    margin: 16px 32px 32px 32px;
+  }
+
+  /* .why-choose-icon {
+    border: 1px solid red;
+    color: black;
+  } */
+
+  .why-choose-card-one,
+  .why-choose-card-two,
+  .why-choose-card-three {
+    width: 335px;
+    height: 289px;
+    flex-shrink: 0;
+
+    border-radius: 16px;
+
+    margin: 0px auto 16px auto;
+  }
+}

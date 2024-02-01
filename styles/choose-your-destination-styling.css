@@ -1,0 +1,318 @@
+.choose-your-destination-section {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}
+
+.choose-your-destination-first-child {
+  /* border: 1px solid green; */
+  width: 1170px;
+}
+
+.destination-text-div {
+  /* border: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.destination-text-one {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  margin: 100px 0px 24px 0px;
+}
+
+.destination-text-two {
+  width: 643px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+
+  margin: 0px 0px 36px 0px;
+}
+
+.destination-img-div-1 {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-bg-1-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  width: 573px;
+  height: 300px;
+  margin: 12px 0px;
+  flex-shrink: 0;
+
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/maldeves.png"), lightgray 10% / cover no-repeat;
+}
+
+.img-bg-1-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  width: 573px;
+  height: 300px;
+  margin: 12px 0px;
+  flex-shrink: 0;
+
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/indonesia.png"), lightgray 10% / cover no-repeat;
+}
+
+.destination-img-div-2 {
+  /* border: 1px solid blueviolet; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-bg-2-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 374px;
+  height: 286px;
+  margin: 12px 0px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/srilanka.png"), lightgray 50% / cover no-repeat;
+
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.img-bg-2-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 474px;
+  height: 286px;
+  margin: 12px 0px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/north\ america.png"), lightgray 50% / cover no-repeat;
+
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.img-bg-2-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 274px;
+  height: 286px;
+  margin: 12px 0px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/kashmir.png"), lightgray 50% / cover no-repeat;
+
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.destination-img-div-3 {
+  /* border: 1px solid red; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img-bg-3-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 473px;
+  height: 300px;
+  margin: 12px 0px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/bangladesh.png"), lightgray 50% / cover no-repeat;
+
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.img-bg-3-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 673px;
+  height: 300px;
+  margin: 12px 0px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/bandarban.png"), lightgray 50% / cover no-repeat;
+
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+@media screen and (max-width: 576px) {
+  .destination-text-one {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+    margin: 10px auto;
+  }
+
+  .destination-text-two {
+    width: 309px;
+    color: rgba(19, 19, 24, 0.7);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+
+    margin: 10px auto;
+  }
+  .destination-img-div-1,
+  .destination-img-div-2,
+  .destination-img-div-3 {
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+  }
+
+  .img-bg-1-1,
+  .img-bg-1-2,
+  .img-bg-2-1,
+  .img-bg-2-2,
+  .img-bg-2-3,
+  .img-bg-3-1,
+  .img-bg-3-2 {
+    width: 335px;
+    height: 176px;
+    flex-shrink: 0;
+
+    border-radius: 16px;
+
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px auto;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

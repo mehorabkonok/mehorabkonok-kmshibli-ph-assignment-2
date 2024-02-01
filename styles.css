@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn-primary {
+  color: white;
+  border-radius: 8px;
+  background-color: #ff5400;
+
+  border: none;
+
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.primary-color {
+  color: #ff5400;
+}

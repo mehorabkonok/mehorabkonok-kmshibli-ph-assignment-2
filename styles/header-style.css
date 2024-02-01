@@ -1,0 +1,258 @@
+/* Header section starts here */
+
+#header-first-child {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 52px 10px;
+}
+
+/* Nav sectiu=on starts here */
+.nav-element {
+  /* border: 1px solid red; */
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 35px 0px;
+}
+
+.nav-title {
+  /* border: 1px solid yellowgreen; */
+  display: flex;
+}
+
+.nav-icon > img {
+  height: 56px;
+  font-weight: 48px;
+}
+
+.nav-title-name {
+  /* border: 1px solid violet; */
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  padding: 10px 5px;
+}
+
+.hamburger-menu {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+
+  display: none;
+}
+
+.nav-list {
+  /* border: 1px solid red; */
+  padding: 20px 0;
+}
+.nav-list > ul {
+  display: flex;
+}
+.nav-list > ul > li {
+  list-style: none;
+  padding: 0px 22px;
+}
+.nav-list > ul > li > a {
+  text-decoration: none;
+
+  /* color: #ff5400; */
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Nav section ends here */
+
+/* Banner section starts here */
+.banner-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+
+  /* border: 1px solid blue; */
+
+  width: 1170px;
+  height: 495px;
+  flex-shrink: 0;
+
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/banner\ image.png");
+  background-repeat: no-repeat;
+}
+
+.banner-title-text {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.banner-desctription-text {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 676px;
+}
+.banner-input-field {
+  display: inline-flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 24px;
+
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.input-field,
+.input-btn {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+
+  border-radius: 8px;
+
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input-field {
+  border: none;
+  background: #fff;
+  padding: 0 10px;
+}
+.input-btn {
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 576px) {
+  .hamburger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+  }
+  .nav-list {
+    /* border: 1px solid red; */
+    padding: 14px 0;
+  }
+  .nav-list > ul > li {
+    display: none;
+  }
+  .nav-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-icon > img {
+    width: 28.724px;
+    height: 33.516px;
+  }
+  .nav-title-name {
+    padding: 16px 5px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 21.543px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .nav-element {
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 375px;
+    height: 64px;
+    flex-shrink: 0;
+  }
+
+  .banner-element {
+    width: 370px;
+    height: 483px;
+    flex-shrink: 0;
+
+    border-radius: 16px;
+  }
+  .banner-title-text {
+    color: #fff;
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .banner-desctription-text {
+    color: #fff;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+
+    width: 304px;
+  }
+
+  .banner-input-field {
+    display: flex;
+    width: 287px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+
+    border-radius: 8px;
+    /* background: rgba(255, 255, 255, 0.3); */
+  }
+  .input-field {
+    width: 255px;
+    height: 52px;
+    flex-shrink: 0;
+
+    border-radius: 8px;
+    background: #fff;
+
+    color: rgba(19, 19, 24, 0.5);
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .input-btn {
+    width: 275px;
+    height: 52px;
+    flex-shrink: 0;
+
+    border-radius: 8px;
+    background: #ff5400;
+  }
+}

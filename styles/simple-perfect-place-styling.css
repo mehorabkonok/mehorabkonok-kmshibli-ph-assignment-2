@@ -1,0 +1,158 @@
+.simple-perfect-place-section {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simple-perfect-place-section-first-child {
+  /* border: 1px solid green; */
+  width: 1170px;
+
+  display: flex;
+  flex-direction: row;
+
+  margin: 32px auto;
+}
+
+.simple-perfect-place-title {
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+
+  font-style: normal;
+
+  color: #131318;
+  margin: 16px auto 32px 0px;
+}
+
+.simple-perfect-place-description {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  color: #5a5a5d;
+  margin: 0px 16px 24px 0px;
+}
+
+.simple-perfect-place-list {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: bold;
+  color: #131318;
+
+  margin: 0px 16px 24px 24px;
+}
+
+.see-more-btn {
+  width: 174px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+
+  margin: 30px 0px 0px 0px;
+}
+
+.simple-perfect-place-img-div {
+  /* border: 1px solid blue; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 610px;
+  height: 424px;
+
+  border-radius: 16px;
+
+  background: url("../Images/Group\ 40089.png");
+}
+
+.simple-perfect-place-img-text {
+  /* border: 1px solid yellow; */
+  color: white;
+
+  text-align: center;
+  width: 276px;
+  height: 72px;
+  flex-grow: 0;
+
+  /* margin: 0 39px 107px 77px; */
+  margin: 160px auto 0px auto;
+
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation-icon-div {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  /* margin: 0px 0px 16px 0px; */
+  margin: 0px 40px 16px 40px;
+}
+
+.navigation-icons {
+  color: white;
+  margin: 4px 8px 4px 8px;
+}
+
+.navigation-icon-div-one,
+.navigation-icon-div-two {
+  display: flex;
+}
+
+@media screen and (max-width: 576px) {
+  .simple-perfect-place-section-first-child {
+    display: flex;
+    flex-direction: column;
+
+    width: 570px;
+    margin: auto;
+  }
+
+  .simple-perfect-place-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 16px auto 32px 118px;
+  }
+
+  .simple-perfect-place-img-div {
+    width: 335px;
+    height: 356px;
+    margin: 8px auto 16px auto;
+
+    background: url(../Images/Group\ 40089.png);
+  }
+
+  .simple-perfect-place-img-text {
+    text-align: center;
+    width: 276px;
+    height: 72px;
+
+    margin: 144px auto 0px auto;
+  }
+
+  .navigation-icon-div {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin: 0px 0px 16px 0px;
+  }
+
+  .simple-perfect-place-description {
+    margin: 16px 60px 32px 118px;
+  }
+
+  .simple-perfect-place-list {
+    margin: 16px 64px 32px 140px;
+  }
+
+  .see-more-btn {
+    margin: 16px auto 32px 118px;
+  }
+}
